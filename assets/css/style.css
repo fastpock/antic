@@ -254,6 +254,9 @@ main .design .min-container {
 main .design .min-container>div:first-child {
     width: 40%;
 }
+main .design .min-container>div:first-child>h2 {
+    margin-top: 0;
+}
 main .design .min-container>div:last-child {
     width: 53%;
 }
@@ -333,6 +336,8 @@ main .trends .min-container:first-child>div.d-f>div:last-child button {
     line-height: 25px;
     color: #ffffff;
     letter-spacing: 1px;
+    outline: none;
+    border: none;
 }
 main .trends .min-container:nth-child(2) {
     max-width: 1290px;
@@ -553,7 +558,7 @@ footer .min-container>div:last-child>ul a {
         width: 100%;
     }
     main .design .min-container>div:first-child>h2 {
-        margin: 20px 0;
+        margin: 0 0 20px 0;
     }
     main .design .min-container>div:last-child {
         width: 100%;
